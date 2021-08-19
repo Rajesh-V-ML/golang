@@ -31,7 +31,14 @@ func main() {
 	Emp2.ESal = 50000
 	Emp2.EScore = 4.8
 
-	fmt.Printf("Employee 1 Details: \n Code: %d Name: %s Designation: %s Salary: %d Score: %0.2f", Emp1.ECode, Emp1.EName, Emp1.EDesig, Emp1.ESal, Emp1.EScore)
-	fmt.Printf("\nEmployee 2 Details: \n Code: %d Name: %s Designation: %s Salary: %d Score: %0.2f", Emp2.ECode, Emp2.EName, Emp2.EDesig, Emp2.ESal, Emp2.EScore)
+	printEmp(Emp1)
+	printEmp(Emp2)
+}
 
+func printEmp(E Employee) {
+	fmt.Println("Employee Code : ", E.ECode)
+	fmt.Println("Employee Name : ", E.EName)
+	fmt.Println("Employee Designation : ", E.EDesig)
+	fmt.Println("Employee Salary : ", E.ESal)
+	fmt.Println("Employee Score : ", E.EScore)
 }
