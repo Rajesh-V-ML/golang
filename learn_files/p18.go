@@ -6,7 +6,7 @@ import (
 
 func hello(done chan bool) {
 	fmt.Println("HELLO FROM GO ROUTINE")
-	done <- true
+	done <- true //send to channel
 }
 
 func receive(receive bool, done2 chan bool) {
@@ -22,7 +22,7 @@ func main() {
 	done2 := make(chan bool)
 
 	go hello(done)
-	tosend := <-done
+	tosend := <-done // receive from channel
 	go receive(tosend, done2)
 	<-done2
 	fmt.Println("HELLO FROM MAIN")
