@@ -1,3 +1,4 @@
+//go channel
 package main
 
 import (

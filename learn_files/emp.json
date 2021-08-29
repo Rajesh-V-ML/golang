@@ -1,0 +1,22 @@
+{
+    "users": [
+      {
+        "name": "Rajesh",
+        "role": "Associate",
+        "age": 24,
+        "social": {
+          "mail": "rajesh.v@maplelabs.com",
+          "num": "8660720989"
+        }
+      },
+      {
+        "name": "Fraser",
+        "role": "Senior",
+        "age": 25,
+        "social": {
+          "mail": "fraser@maplelabs.com",
+          "num": "9857541245"
+        }
+      }
+    ]
+  }

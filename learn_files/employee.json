@@ -1,0 +1,18 @@
+{
+ "FName": "Rajesh",
+ "LName": "V",
+ "Mail": "rajesh.v@maplelabs.com",
+ "Age": 24,
+ "MonthlySal": [
+  {
+   "Basic": 20000,
+   "Allowance": 1000,
+   "PF": 2000
+  },
+  {
+   "Basic": 25000,
+   "Allowance": 1500,
+   "PF": 2200
+  }
+ ]
+}
