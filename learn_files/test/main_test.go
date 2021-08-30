@@ -1,12 +1,11 @@
 package main
 
 import (
-	"fmt"
 	"testing"
 )
 
 func TestCalculate(t *testing.T) {
 	if Calculate(2) != 4 {
-		t.Error("Expected 2 + 2 to equal 4")
+		t.Errorf("Expected 2 + 2 to equal 4")
 	}
 }

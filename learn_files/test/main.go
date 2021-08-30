@@ -12,4 +12,5 @@ func Calculate(x int) (result int) {
 
 func main() {
 	fmt.Println("Hello World")
+	fmt.Println(Calculate(2))
 }
